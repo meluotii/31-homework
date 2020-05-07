@@ -1,5 +1,5 @@
 # 31-homework
 
-[Calculator](https://meluotii.github.io/31-homework/index.html)
+[Calculator](https://meluotii.github.io/31-homework/projects/index.html)
 
-[Far Cry](https://meluotii.github.io/31-homework/index.html)
+[Far Cry](https://meluotii.github.io/31-homework/projects/index.html)
