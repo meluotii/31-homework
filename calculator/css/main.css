@@ -1,0 +1,128 @@
+body {
+  background: #d674f2;
+  background: -webkit-gradient(linear, left top, right top, from(#d674f2), color-stop(64%, #fe9090), to(#ff6868));
+  background: linear-gradient(to right, #d674f2 0%, #fe9090 64%, #ff6868 100%);
+  background-size: cover;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+  border: none;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: white;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1, h2 {
+  font-size: 20px;
+  padding: 0 0 10px 0;
+  color: #fff;
+}
+
+.mainer {
+  margin: 69px auto;
+  max-width: 400px;
+  padding: 0 15px;
+}
+
+.mainer .wrapper {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 18px 2px black;
+          box-shadow: 0 4px 18px 2px black;
+}
+
+.mainer .entry-field .input {
+  width: 100%;
+  height: 120px;
+  padding: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.mainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mainer table .button {
+  display: block;
+  width: 100%;
+  height: 90px;
+  padding: 10px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.61);
+  background-color: white;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.mainer table .button:hover {
+  background-color: #f0eeee;
+}
+
+.mainer table .border-radius-left {
+  border-bottom-left-radius: 5px;
+}
+
+.mainer table .border-radius-right {
+  border-bottom-right-radius: 5px;
+}
+
+.mainer table .bg-color {
+  background-color: #af8baf;
+}
+
+.mainer table .bg-color:hover {
+  background-color: #967896;
+}
+
+.mainer table .bg-color-equal {
+  background-color: #f6acc8;
+}
+
+.mainer table .bg-color-equal:hover {
+  background-color: #e296b3;
+}
+/*# sourceMappingURL=main.css.map */

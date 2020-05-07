@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="mainer">
+        <div class="wrapper">
+            <div class="entry-field">
+                <input type="text" class="input" value="0">
+            </div>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td><input type="button" class="button bg-color action-clear-all" value="C"></td>
+                        <td><input type="button" class="button bg-color action-clear-one" value="<"></td>
+                        <td><input type="button" class="button bg-color action" value="/"></td>
+                        <td><input type="button" class="button bg-color action" value="x"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" class="button numbers" value="7"></td>
+                        <td><input type="button" class="button numbers" value="8"></td>
+                        <td><input type="button" class="button numbers" value="9"></td>
+                        <td><input type="button" class="button bg-color action" value="-"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" class="button numbers" value="4"></td>
+                        <td><input type="button" class="button numbers" value="5"></td>
+                        <td><input type="button" class="button numbers" value="6"></td>
+                        <td><input type="button" class="button bg-color action" value="+"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" class="button numbers" value="1"></td>
+                        <td><input type="button" class="button numbers" value="2"></td>
+                        <td><input type="button" class="button numbers" value="3"></td>
+                        <td rowspan="2"><input type="button"
+                                class="button border-radius-right bg-color-equal action-equal" style="height: 181px"
+                                value="=">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="button" class="button border-radius-left numbers" value="0">
+                        </td>
+                        <td><input type="button" class="button numbers" value="."></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
